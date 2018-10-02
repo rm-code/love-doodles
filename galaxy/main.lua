@@ -1,6 +1,7 @@
 local points = {}
 local sw, sh = love.graphics.getDimensions()
 love.graphics.setBackgroundColor( 0.133333, 0.125490, 0.203922 )
+love.mouse.setVisible( false )
 
 local defaultColorLow = { 0.796078, 0.858824, 0.988235 }
 local defaultColorHigh = { 0.517647, 0.494118, 0.529412 }
@@ -81,4 +82,3 @@ function love.update( dt )
         end
     end
 end
-
