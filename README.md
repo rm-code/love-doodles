@@ -1,5 +1,9 @@
 # love-doodles
 
+## Raindrops
+
+![raindrops](https://github.com/rm-code/love-doodles/blob/master/01_raindrops/raindrops.gif)
+
 ## Galaxy
 
 ![galaxy](https://github.com/rm-code/love-doodles/blob/master/02_galaxy/galaxy.gif)
