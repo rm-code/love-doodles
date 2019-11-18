@@ -18,4 +18,4 @@ TBD
 
 ## Pixel Sorting
 
-![grid](https://github.com/rm-code/love-doodles/blob/master/03_grid/result.png)
+![grid](https://github.com/rm-code/love-doodles/blob/master/05_sort/result.png)
