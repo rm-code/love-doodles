@@ -18,4 +18,5 @@ TBD
 
 ## Pixel Sorting
 
+![grid](https://github.com/rm-code/love-doodles/blob/master/05_sort/result_2.png)
 ![grid](https://github.com/rm-code/love-doodles/blob/master/05_sort/result.png)

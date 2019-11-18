@@ -1,5 +1,5 @@
 function love.load()
-    local source = love.image.newImageData("foo11.jpg")
+    local source = love.image.newImageData("source.jpeg")
     local w, h = source:getDimensions()
     local index = 0
     local map = {}
@@ -33,10 +33,8 @@ function love.load()
         index = index + 1
     end
 
-    for x = 0, w-1 do
-        for y = 0, h-1 do
-            source:setPixel( x, y, map[x][y].r, map[x][y].g, map[x][y].b, map[x][y].a )
-        end
-    end
+    source:mapPixel( function( x, y )
+        return map[x][y].r, map[x][y].g, map[x][y].b, map[x][y].a
+    end)
     source:encode("png", "out_" .. love.timer.getTime() .. ".png")
 end
