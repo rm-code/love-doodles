@@ -11,3 +11,11 @@
 ## Grid
 
 ![grid](https://github.com/rm-code/love-doodles/blob/master/03_grid/grid.gif)
+
+## Gravity
+
+TBD
+
+## Pixel Sorting
+
+![grid](https://github.com/rm-code/love-doodles/blob/master/03_grid/result.png)
